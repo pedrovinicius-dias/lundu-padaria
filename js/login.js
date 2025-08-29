@@ -1,4 +1,4 @@
-//o código usa localstorage e sessionstorage para simular um sistema de login
+//usa localstorage e sessionstorage para simular um sistema de login
 
 document.addEventListener('DOMContentLoaded', () => {
     const loginForm = document.getElementById('loginForm');
@@ -47,7 +47,7 @@ document.addEventListener('DOMContentLoaded', () => {
                 return;
             }
 
-            // Simulação: salvar novo usuário no localStorage (NÃO FAÇA ISSO EM PRODUÇÃO)
+            // Simulação: salvar novo usuário no localStorage
             const newUser = { name, email, password };
             localStorage.setItem(email, JSON.stringify(newUser));
 
