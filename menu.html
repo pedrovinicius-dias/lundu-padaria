@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cardápio - Lundu Padaria</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <a href="home.html" class="logo">Lundu Padaria</a>
+            <ul class="nav-menu">
+                <li class="nav-item"><a href="home.html" class="nav-link">Início</a></li>
+                <li class="nav-item"><a href="menu.html" class="nav-link">Cardápio</a></li>
+                <li class="nav-item"><a href="#" id="logout" class="nav-link">Sair</a></li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main-content">
+        <section class="menu-section">
+            <h1>Nosso Cardápio</h1>
+            <div class="menu-filters">
+                <button class="filter-btn active" data-category="all">Todos</button>
+                <button class="filter-btn" data-category="paes">Pães</button>
+                <button class="filter-btn" data-category="bolos">Bolos</button>
+                <button class="filter-btn" data-category="salgados">Salgados</button>
+            </div>
+
+            <div class="menu-grid">
+                <div class="menu-item" data-category="paes">
+                    <img src="img/frances.png" alt="Pão Francês">
+                    <h3>Pão Francês</h3>
+                    <p>Crocante por fora, macio por dentro. Perfeito para o seu café da manhã.</p>
+                    <span class="price">R$ 1,50</span>
+                </div>
+                <div class="menu-item" data-category="bolos">
+                    <img src="img/bolo-cenoura.png" alt="Bolo de Cenoura">
+                    <h3>Bolo de Cenoura com Chocolate</h3>
+                    <p>Uma fatia generosa do clássico bolo de cenoura com cobertura de brigadeiro.</p>
+                    <span class="price">R$ 8,00</span>
+                </div>
+                 <div class="menu-item" data-category="salgados">
+                    <img src="img/coxinha.png" alt="Coxinha">
+                    <h3>Coxinha de Frango</h3>
+                    <p>Massa saborosa e recheio cremoso de frango com catupiry.</p>
+                    <span class="price">R$ 7,50</span>
+                </div>
+                 <div class="menu-item" data-category="paes">
+                    <img src="img/Pao-de-Queijo.png" alt="Pão de Queijo">
+                    <h3>Pão de Queijo</h3>
+                    <p>Quentinho e irresistível, feito com o melhor queijo da região.</p>
+                    <span class="price">R$ 4,00</span>
+                </div>
+                </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2025 Pedro Vinicius. Todos os direitos reservados.</p>
+    </footer>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
